@@ -3,16 +3,16 @@ Public LastRow As Long
 Sub Main()
 
     TurnOnPerformanceEnhancers
-        SortAndRemoveUnwantedColumns
-        RemoveUnwantedRows
-        SpaceOutRows
-        AutoSum
-        MoveTotalsToEachCustomerFirstLine
-        RemoveDuplicateAndBlankRows
-        MoveDataToNewSheet
-        GrandTotals
-        Goodbye
-        TurnOffPerformanceEnhancers
+    SortAndRemoveUnwantedColumns
+    RemoveUnwantedRows
+    SpaceOutRows
+    AutoSum
+    MoveTotalsToEachCustomerFirstLine
+    RemoveDuplicateAndBlankRows
+    MoveDataToNewSheet
+    GrandTotals
+    Goodbye
+    TurnOffPerformanceEnhancers
 
 End Sub
 
@@ -233,6 +233,6 @@ End Sub
 Sub Goodbye()
 
     sPrompt = "[" & ChrW(&H2022) & "_" & ChrW(&H2022) & "]" & "   I'm done        "
-    MsgBox sPrompt + "", , "Loomis Cash Order™    "
+    MsgBox sPrompt + "", , "Loomis Cash Orderâ„¢    "
     
 End Sub
